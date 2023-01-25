@@ -1,0 +1,104 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc {
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+    font-size: 40px;
+    width: 500px;
+    height: 100px;
+}
+
+a {
+    margin-left: 150px;
+    color: #ADADAD;
+}
+
+body {
+    background: #fafafa;
+}
+
+
+.hero-image {
+    border-radius: 50%;
+    top: 72px;
+    left: 166px;
+    width: 576px;
+    height: 576px;
+    /* UI Properties */
+    background: transparent url('img/Ellipse 2.png') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 31px #0000000A;
+    border: 20px solid #FFFFFF;
+    opacity: 1;
+}
+
+.right {
+    margin: 10rem;
+}
+
+button {
+    color: white;
+    background-color: #C8242F;
+    width: 138px;
+    height: 45px;
+    border-radius: 23px;
+    margin-bottom: 11.35px;
+}
+
+.login-msg {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    height: 33px;
+    color: #3E3E3E;
+}
+
+input {
+    border-radius: 5px;
+    width: 429px;
+    height: 49px;
+    border: 1px solid #ADADAD;
+    color: #FFFFFF;
+    size: 1px;
+
+
+}
+
+span {
+    color: #C8242F;
+}
+
+.register {
+    margin-left: 10px;
+    color:#C8242F;
+    font-family: 'Roboto', sans-serif;
+    text-decoration :none;
+}
+.logo1{
+    width: 272px;
+    height: 58px;
+}
+
+::placeholder{
+    padding: 14.63px 346.5px 14.37px 14.5px;
+}
+
+.fp{
+    color:#ADADAD;
+    width: 121px;
+    height: 20px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.con{
+    color:#ADADAD;
+    height: 20px;
+    width: 160px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
