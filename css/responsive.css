@@ -1,0 +1,39 @@
+/* @media only screen and (max-width:360px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        /* background-color: black; */
+
+
+
+
+
+@media only screen and (max-width:360px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        /* background-color: black; */
+        /* flex-direction: row; */
+        /* background-color: black; */
+    }
+
+    .hero-image {
+        height: 100px;
+        width: 100px;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+
+
+    #logo1 {
+        /* height: 100%; */
+        width: fit-content;
+    }
+
+    .desc {
+        width: fit-content;
+    }
+}
