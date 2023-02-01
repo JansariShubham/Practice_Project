@@ -738,8 +738,30 @@ input[type="checkbox"]:checked {
 
 }
 
-.col-3 {
+.col input {
+    outline: none;
+
+}
+
+.col-12 input {
     position: relative;
+    outline: none;
+}
+
+.col-12 {
+    position: relative;
+}
+
+.col-12>span {
+    position: absolute;
+    pointer-events: none;
+    /* height: 49px; */
+    /* position: absolute; */
+    left: 5px;
+    top: 0;
+    padding: 10px 25px;
+    color: #adadad;
+    transition: 0.3s;
 }
 
 .col-3 input {

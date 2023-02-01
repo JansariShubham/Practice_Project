@@ -15,7 +15,7 @@
     <!-- <nav class="navbar d-flex"> -->
     <nav class="mainNav">
         <div class="leftDiv">
-            <img class="menubar" src="./images/menu-bar.svg" alt="Menubar">
+            <img class="menubar" id="menu" src="./images/menu-bar.svg" alt="Menubar">
             <img class="logoImage" src="./images/logo.svg" alt="Company">
         </div>
         <div class="rightDiv">
@@ -139,8 +139,8 @@
                     <h5>Other Design Elements</h5>
                     <br>
                     <p class="font-weight-bold">File Upload</p>
-                    <div class="row">
-                        <button class="file-upload col-1">
+                    <div class="fiUp">
+                        <button class="file-upload ">
                             <img src="./images/cloud-upload-icon.svg" alt="File Upload">
                             Upload
                         </button>
@@ -237,6 +237,14 @@
         </div>
     </div>
     </div>
+    <script>
+        const menuBar = document.querySelector("#menu");
+        const sideBar = document.querySelector(".sidebarDiv");
+
+        menuBar.addEventListener("click", () => {
+            sideBar.classList.toggle("hide-aside");
+        });
+    </script>
 </body>
 
 </html>
